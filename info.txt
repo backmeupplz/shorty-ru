@@ -18,3 +18,8 @@
   * MongoDB
   * jQuery
   * Bootstrap
+
+Деплой:
+  * Создаем дроплет на Digital Ocean
+  * Подключаемся к нему SSH
+  * 
