@@ -3,8 +3,8 @@ const router = express.Router();
 const db = require('../helpers/db');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+router.get('/', (req, res, next) => {
+  res.render('index');
 });
 
 /* GET to long url */
