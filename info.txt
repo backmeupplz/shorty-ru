@@ -21,5 +21,12 @@
 
 Деплой:
   * Создаем дроплет на Digital Ocean
-  * Подключаемся к нему SSH
-  * 
+  * Подключаемся к нему по SSH
+  * Редиректим Nameservers на Cloudflare
+  * Cloudflare DNS просим указывать с домена на на наш ip от DO
+  * Ставим три сервиса на нашей убунте:
+    - mongod — наша бд
+    - node-cd — наш CI (https://github.com/backmeupplz/node-cd)
+    - shorty — наша аппка
+  * Получаем SSL (HTTPS) сертификат от Certbot
+  * Настраиваем nginx
